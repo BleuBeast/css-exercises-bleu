@@ -46,3 +46,46 @@ html {
   color: white;
   text-align: left;
 }
+
+/* Changes */
+.container {
+  display: grid;
+  grid-template-columns: 300px 900px;
+  grid-template-rows: 100px 100px 500px 100px;
+  gap: 15px;
+}
+
+.header {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 3 ;
+  grid-row-end: 2;
+}
+
+.sidebar {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-column-end: 2;
+  grid-row-end: 4;
+}
+
+.nav {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  grid-column-end: 3;
+  grid-row-end: 3;
+}
+
+.article {
+  grid-column-start: 2;
+  grid-row-start: 3;
+  grid-column-end: 3;
+  grid-row-end: 4;
+}
+
+.footer {
+  grid-column-start: 1;
+  grid-row-start: 4;
+  grid-column-end: 3;
+  grid-row-end: 5;
+}
